@@ -10,7 +10,7 @@
 
 <body>
     <!-- Calculator
-    Git-et használj! A repository-d neve: calculator. Case sensitive-en.
+    Git-et használj! A repository-d neve: calculator. Case sensitive-en.   
     Készítsd el az alábbi számológép design-ját html 
     ...............................................................
     és css segítségével
@@ -30,33 +30,42 @@
    -->
 
     <div class="calculator">
-        <div class="display">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div class="displayyy">
+            <input class="display" type="text" name="" id="">
         </div>
 
         <div class="operations">
-            <button class="btn btn-plus" type="button">+</button>
-            <button class="btn btn-minus" type="button">-</button>
-            <button class="btn btn-multiply" type="button">x</button>
-            <button class="btn btn-distribute" type="button">%</button>
+            <button class="btn btn-plus" type="button">&#43</button>
+            <button class="btn btn-minus" type="button">&#8722</button>
+            <button class="btn btn-multiply" type="button">&#215</button>
+            <button class="btn btn-divide" type="button">&#247</button>
         </div>
         <div class="operators">
             <div class="numbers">
-                <button class="btn btn-7" type="button">7</button>
-                <button class="btn btn-8" type="button">8</button>
-                <button class="btn btn-9" type="button">9</button>
-                <button class="btn btn-4" type="button">4</button>
-                <button class="btn btn-5" type="button">5</button>
-                <button class="btn btn-6" type="button">6</button>
-                <button class="btn btn-1" type="button">1</button>
-                <button class="btn btn-2" type="button">2</button>
-                <button class="btn btn-3" type="button">3</button>
-                <button class="btn btn-0" type="button">0</button>
-                <button class="btn btn-dot" type="button">.</button>
-                <button class="btn btn-cancel" type="button">C</button>
+                <div class="row">
+                    <button class="btn btn-7" type="button">7</button>
+                    <button class="btn btn-8" type="button">8</button>
+                    <button class="btn btn-9" type="button">9</button>
+                </div>
+                <div class="row">
+                    <button class="btn btn-4" type="button">4</button>
+                    <button class="btn btn-5" type="button">5</button>
+                    <button class="btn btn-6" type="button">6</button>
+                </div>
+                <div class="row">
+                    <button class="btn btn-1" type="button">1</button>
+                    <button class="btn btn-2" type="button">2</button>
+                    <button class="btn btn-3" type="button">3</button>
+                </div>
+                <div class="row">
+                    <button class="btn btn-0" type="button">0</button>
+                    <button class="btn btn-dot" type="button">.</button>
+                    <button class="btn btn-cancel" type="button">C</button>
+                </div>
+
             </div>
             <div class="equal">
-                <button class="btn btn-equal=" type="button">=</button>
+                <button class="btne btn-equal=" type="button">=</button>
             </div>
 
         </div>
