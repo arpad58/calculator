@@ -2,20 +2,15 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-
 }
 
-
 .calculator {
-max-width: 17rem;
-border: 1px solid rgb(226, 226, 226);
-height: 16.8rem;
-padding: .3rem;
-margin: auto;
-margin-top: 2rem;
-
-
+   max-width: 16.5rem;
+   border: 1px solid rgb(226, 226, 226);
+   height: 16.9rem;
+   padding: .3rem;
+   margin: auto;
+   margin-top: 2rem;
 }
 
 .display {
@@ -24,65 +19,45 @@ margin-top: 2rem;
     margin-left: .3rem;
     margin-bottom: .3rem;
     height: 2.5rem;
-    width: 15.5rem;
+    width: 15.4rem;
 } 
 
-
-
-.operations {
-   
+.operations { 
     margin-bottom: .3rem;
     display: flex;
-    
+    align-items: stretch;
 }
 
 .operations button {
     background-color: rgb(221, 221, 221);
     border-color: rgb(211, 211, 211);
     border-width: 0;
-    margin: .31rem;
+    margin: .3rem;
     width: 3.5rem;
-    height: 2rem
+    height: 2rem;  
 }
 
-.operators {
-    
-    display: inline-block;
-    width: 17rem;
-    
-    
+.operators { 
+    display: flex;
+    align-items: stretch;
+    width: 17rem;  
 } 
-
-.numbers {
-    
-    width: 72.5%;
-    float: left;
-}
 
 .btn {
     font-family: 'Courier New', Courier, monospace;
 }
 
 .row {
-    display: flex; 
-    margin-bottom: .6rem;
+    display: flex;
+    align-items: stretch;   
 }
 
 .numbers .row button {
     background-color: rgb(243, 243, 243);
-    border: 1px solid rgb(230, 230, 230);
-    margin-bottom: .5rem;
-    margin: auto;
+    border: 1px solid rgb(230, 230, 230);   
+    margin: .3rem;
     width: 3.5rem;
-    height: 2rem;
-    
-}
-
-.equal  {
-    
-    width: 25.5%;
-    float: right;
-    
+    height: 2rem;   
 }
 
 .equal .btne {
@@ -91,4 +66,6 @@ margin-top: 2rem;
     background-color: rgb(105, 165, 214);
     border: 1px solid rgb(67, 133, 187);
     color: rgb(255, 255, 255);
+    margin-left: .3rem;
+    margin-top: .3rem;
 }
