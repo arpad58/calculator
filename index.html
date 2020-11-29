@@ -12,12 +12,12 @@
     <!-- Calculator
     Git-et használj! A repository-d neve: calculator. Case sensitive-en.   
     Készítsd el az alábbi számológép design-ját html 
-    ...............................................................
     és css segítségével
     (Ne táblázatot hanem diveket használj! Flexbox):
 
     Követelmények: 
     Az eval metódus használata SZIGORÚAN TILOS! Most és mindörökké!
+    ...............................................................
     Egyelőre nem kell foglalkozni azzal az esettel, hogy mi történik, 
     ha két műveleti jel van egymás után. Ilyen esetekben dobhattok hibát. 
     A felső input mezőben jelenjen meg az ERROR szöveg. 
@@ -30,8 +30,9 @@
    -->
 
     <div class="calculator">
-        <div class="displayyy">
-            <input class="display" type="text" name="" id="">
+        <div class="output">
+            <input class="disp" type="text" name="" id="display" value="0">
+
         </div>
 
         <div class="operations">
@@ -53,9 +54,9 @@
                     <button class="btn btn-6" type="button">6</button>
                 </div>
                 <div class="row">
-                    <button class="btn btn-1" type="button">1</button>
+                    <button class="btn btn-1" id="btn1" value="1" type="button">1</button>
                     <button class="btn btn-2" type="button">2</button>
-                    <button class="btn btn-3" type="button">3</button>
+                    <button class="btn btn-3" id="btn3" value="3" type="button">3</button>
                 </div>
                 <div class="row">
                     <button class="btn btn-0" type="button">0</button>
@@ -65,7 +66,7 @@
 
             </div>
             <div class="equal">
-                <button class="btne btn-equal=" type="button">=</button>
+                <button class="btn btne btn-equal=" type="button">=</button>
             </div>
 
         </div>
